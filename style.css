@@ -10,6 +10,18 @@
     height: 80px;
     background-color: coral;
 }
+.btn {
+    background-color: rgb(59, 206, 100);
+    color: black;
+    height: 45px;
+    width: 125px;
+    font-weight: bold;
+    font-family:cursive;
+}
+ 
+.btn:hover{
+    border-bottom: 3px solid rgb(194, 189, 189);
+}
 .list{
     list-style: none;
     color: white;
@@ -25,7 +37,37 @@
     color: wheat;
     
 }
+.sobreMim{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: bisque;
+    margin-left: 280px;
+    margin-right: 280px;
 
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.subtitle{
+    padding: 10px;
+    
+}
+.titleSobreMim{
+    padding: 25px;
+    font-size: 25px ;
+    color:wheat;
+    font-family:cursive ;
+    font-style: unset;
+}
+p{
+    font-size: 19px;
+    color:cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
 .container{
     flex-direction: row;
     flex-wrap: nowrap;
@@ -39,6 +81,7 @@
     color: white;
    
 }
+
 .stack{
     display: flex;
     flex-wrap: nowrap ;
@@ -46,11 +89,15 @@
     gap: 55px;
     padding-top: 70px;
     
+    
 }
 .stack img{
     width: 100px ;
     height: 100px;
     color: transparent;
-    
    
+}
+img:hover{
+    border-bottom: 3px solid rgb(163, 163, 191);
+    padding-bottom: 2px;
 }

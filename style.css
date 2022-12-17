@@ -1,28 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- 
-.header{
+
+.header {
     display: flex;
     width: 100%;
     height: 80px;
-    background-color: coral;
+    background-color: rgb(46, 48, 47);
 }
+
 .btn {
-    background-color: rgb(59, 206, 100);
-    color: black;
+    background-color: rgb(3, 62, 21);
+    color: rgb(250, 244, 244);
     height: 45px;
     width: 125px;
     font-weight: bold;
-    font-family:cursive;
+    font-family: cursive;
+    cursor: pointer;
 }
- 
-.btn:hover{
+
+.btn:hover {
     border-bottom: 3px solid rgb(194, 189, 189);
 }
-.list{
+
+.list {
     list-style: none;
     color: white;
     display: flex;
@@ -32,12 +35,18 @@
     gap: 10px;
 
 }
-.list a{
+
+.list a {
     text-decoration: none;
     color: wheat;
-    
+
 }
-.sobreMim{
+
+.list a:hover {
+    border-bottom: 2px solid yellowgreen;
+}
+
+.sobreMim {
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     color: bisque;
@@ -46,58 +55,112 @@
 
 }
 
-.title{
+.title {
     font-size: 35px;
     font-weight: 500;
     font-family: sans-serif;
 }
-.subtitle{
+
+.subtitle {
     padding: 10px;
-    
+
 }
-.titleSobreMim{
+
+.titleSobreMim {
     padding: 25px;
-    font-size: 25px ;
-    color:wheat;
-    font-family:cursive ;
+    font-size: 25px;
+    color: wheat;
+    font-family: cursive;
     font-style: unset;
 }
-p{
+
+p {
     font-size: 19px;
-    color:cornsilk;
+    color: cornsilk;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
 }
-.container{
+
+.container {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
-    height: 86.4vh;
-    background-color: rgb(51, 13, 13);
+    height: auto;
+    background-color: rgb(91, 89, 89);
     font-size: 7px;
     padding-top: 40px;
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
     color: white;
-   
+
 }
 
-.stack{
+.stack {
     display: flex;
-    flex-wrap: nowrap ;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 55px;
     padding-top: 70px;
-    
-    
+
+
 }
-.stack img{
-    width: 100px ;
+
+.stack img {
+    width: 100px;
     height: 100px;
     color: transparent;
-   
+
 }
-img:hover{
+
+img:hover {
     border-bottom: 3px solid rgb(163, 163, 191);
     padding-bottom: 2px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(91, 89, 89);
+    position: relative;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer a {
+
+    padding-top: 100px;
+    width: 250px;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(17, 232, 171);
+
+}
+
+@media (max-width: 800px ) {
+    .list {
+        display: flex;
+        margin-left: 5px;
+        font-size: 20px;
+        
+    }
+  
+   
+}
+@media (max-width:501px){
+     .stack{
+        display: flex;
+        flex-direction: row ;
+        flex-wrap:wrap ;
+        justify-content: center;
+       
+    }
+    .sobreMim{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        font-size: 25px;
+        justify-content: flex-start;
+    }
 }

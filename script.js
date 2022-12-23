@@ -3,5 +3,4 @@ function clickMenu() {
         itens.style.display = "none";
     }else {
        itens.style.display = "none"
-    }
-}
+    }}

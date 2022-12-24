@@ -9,7 +9,7 @@ counter = 0;
 
   showMenu = ()=>{
     if(menuMobile.style.display == "none"){
-        menuMobile.style.display = "initial"
+        menuMobile.style.display = "flex"
         hamburger.style.display = "none"
 
        

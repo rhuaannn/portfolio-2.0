@@ -1,6 +1,24 @@
-function clickMenu() {
-    if (itens.style.display == "block"){
-        itens.style.display = "none";
-    }else {
-       itens.style.display = "none"
-    }}
+
+
+const hamburger = document.getElementById('hamburger');
+const menuMobile = document.getElementsByClassName('menu-mobile')[0];
+counter = 0;
+
+
+
+
+  showMenu = ()=>{
+    if(menuMobile.style.display == "none"){
+        menuMobile.style.display = "initial"
+        hamburger.style.display = "none"
+
+       
+        
+    } else {
+        menuMobile.style.display = "none"
+        hamburger.style.display = "inital"
+    }
+   counter += 1;
+    console.log(`${this.counter} cliques`)
+}
+  

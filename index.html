@@ -24,55 +24,52 @@
 
 <body>
     <div data-aos="fade-down-left">
-<div class="list">
-  
-    <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
 
-        <div data-aos="fade-down-left">
+        <div class="list">
+            <span id="hamburger" class="material-symbols-outlined" onclick="showMenu(this)">menu</span> 
 
-             <ul id="itens" class="list">
-            
-            
-                <li><a href="#projeto-main">Projetos</li></a>
-                <li><a href="https://www.linkedin.com/in/rhuan-marques-b99791233/" target="_blank">Linkedin</li></a>
-                <li><a href="https://wa.me/5562982481606" target="_blank">WhatsApp</li></a>
-       
-              </ul>
-        </div>
-</div>
-
-    <div class="container">
-        <div data-aos="fade-up" data-aos-duration="3000">
-            <h1 class="title">Rhuan Marques</h1>
-            <p class="subtitle">Dev.Front-End.Jr</p>
-            <a href="cv/CV-RHUAN.pdf" download="curriculo-rhuan.pdf">
-                <button type="button" class="btn">Download CV</button>
-            </a>
-        </div>
-
-        <div data-aos="flip-left" data-aos-duration="3000">
-            <p class="titleSobreMim">Sobre Mim:</p>
-            <h2 class="sobreMim">Olá! Segue abaixo algumas de minhas qualificações:
-
-                Curso superior completo de sistemas de informação - Faculdade Delta.
-                Técnico em informatica pela escola técnica Microlins.
-                Conhecimentos em Design de interfaces, desenvolvimento Web com HTML, CSS e Javascript,
-                Conhecimento intermediário em React.
-
-                Facilidade com aprendizado, focado na realização das tarefas, facilidade com inglês (interpretação e
-                leitura).</h2>
-
-
-            <div class="stack">
-
-                <img alt="html" src="https://cdn.worldvectorlogo.com/logos/html-1.svg">
-                <img alt="css" src="https://cdn.worldvectorlogo.com/logos/css-3.svg">
-                <img alt="react-2" src="https://cdn.worldvectorlogo.com/logos/react-2.svg">
-                <img alt="logo-javascript" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg">
-                <img alt="postgresql" src="https://cdn.worldvectorlogo.com/logos/postgresql.svg">
+            <div id="menu" data-aos="fade-down-left">
+                <!-- <ul id="itens" class="list menu-mobile"> -->
+                <ul id="itens" class="menu-mobile" onclick="showMenu()">
+                    <li><a href="#projeto-main">Projetos</li></a>
+                    <li><a href="https://www.linkedin.com/in/rhuan-marques-b99791233/" target="_blank">Linkedin</li></a>
+                    <li><a href="https://wa.me/5562982481606" target="_blank">WhatsApp</li></a>
+                </ul>
             </div>
         </div>
-    </div>
+
+          <div class="container">
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <h1 class="title">Rhuan Marques</h1>
+                <p class="subtitle">Dev.Front-End.Jr</p>
+                <a href="cv/CV-RHUAN.pdf" download="curriculo-rhuan.pdf">
+                    <button type="button" class="btn">Download CV</button>
+                </a>
+            </div>
+
+            <div data-aos="flip-left" data-aos-duration="3000">
+                <p class="titleSobreMim">Sobre Mim:</p>
+                <h2 class="sobreMim">Olá! Segue abaixo algumas de minhas qualificações:
+
+                    Curso superior completo de sistemas de informação - Faculdade Delta.
+                    Técnico em informatica pela escola técnica Microlins.
+                    Conhecimentos em Design de interfaces, desenvolvimento Web com HTML, CSS e Javascript,
+                    Conhecimento intermediário em React.
+
+                    Facilidade com aprendizado, focado na realização das tarefas, facilidade com inglês (interpretação e
+                    leitura).</h2>
+
+
+                <div class="stack">
+
+                    <img alt="html" src="https://cdn.worldvectorlogo.com/logos/html-1.svg">
+                    <img alt="css" src="https://cdn.worldvectorlogo.com/logos/css-3.svg">
+                    <img alt="react-2" src="https://cdn.worldvectorlogo.com/logos/react-2.svg">
+                    <img alt="logo-javascript" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg">
+                    <img alt="postgresql" src="https://cdn.worldvectorlogo.com/logos/postgresql.svg">
+                </div>
+            </div>
+        </div>
     </div>
     <div class="text-container">
         <div data-aos="fade-up" data-aos-duration="3000">
@@ -104,14 +101,14 @@
     <div class="footer">
         <a class="footer" href="index.html">Desenvolvido por Rhuan Marques</a>
     </div>
+ 
 
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

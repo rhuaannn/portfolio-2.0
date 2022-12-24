@@ -194,8 +194,11 @@ img:hover {
 }
 
 @media (max-width:1500px) {
-    #menu {
-        display: none;
+   .menu-mobile {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        gap: 15px;
     }
 }
 
@@ -212,11 +215,30 @@ img:hover {
         gap: 15px;
     }
 
-    #menu {
-        display: block;
+ /*   #menu {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        gap: 7px;
+    }*/
+}
+@media(max-width:820px){
+    .project-git{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
-
+@media(max-width:540px){
+    .sobreMim{
+        display: flex;
+        margin: 0;
+    }
+    .stack{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 @media (max-width:414px) {
     .stack {
         display: flex;
@@ -241,34 +263,36 @@ img:hover {
 
     }
     .menu-mobile{
+        display: flex;
         list-style: none;
-        display: grid;
         gap: 7px;
     }
-    #hamburger{
+  /*  #hamburger{
     justify-content: flex-start;
     color: red;
-    }
+    }*/
     .footer{
         display: flex;
         flex-wrap: nowrap;
     }
-}
+}/*
 @media (max-width:1440px){
     .menu-mobile{
         display: flex;
         flex-direction: row;
     }
 }
-@media(max-width:768px){
+*/
+@media(max-width:320px){
     .menu-mobile{
     display:flex;
     flex-direction: row;
     list-style: none;
     text-decoration: none;
     gap: 7px;
-}#hamburger{
-    justify-content: flex-start;
-    color: red;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: nowrap;
     }
 }

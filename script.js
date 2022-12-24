@@ -1,5 +1,5 @@
 
-
+/*
 const hamburger = document.getElementById('hamburger');
 const menuMobile = document.getElementsByClassName('menu-mobile')[0];
 counter = 0;
@@ -21,4 +21,4 @@ counter = 0;
    counter += 1;
     console.log(`${this.counter} cliques`)
 }
-  
+  */
